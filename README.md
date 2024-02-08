@@ -30,7 +30,7 @@ We employ various ML techniques and data preprocessing methods to train our mode
 <ul>
   <li> Data cleaning and preprocessing to handle missing values and categorical variables.</li>
   <li> Feature engineering to extract useful information from date and time columns.</li>
-  <li> Model selection and evaluation using algorithms such as Random Forest, Gradient Boosting, and XGBoost.</li>
+  <li> Model selection and evaluation using algorithms such as Linear Regression, Random Forest, and XGBoost.</li>
   <li> Hyperparameter tuning to optimize the performance of our models.</li>
 </ul>
 
