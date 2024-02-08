@@ -23,6 +23,7 @@ The dataset used in this project contains information about airline tickets, inc
 
 ### Techniques Used
 We employ various ML techniques and data preprocessing methods to train our models, including:
+
 <ul>
   <li> Data cleaning and preprocessing to handle missing values and categorical variables.</li>
   <li> Feature engineering to extract useful information from date and time columns.</li>
@@ -31,6 +32,7 @@ We employ various ML techniques and data preprocessing methods to train our mode
 </ul>
 
 ### Steps Followed
+
 <ul>
   <li>Data Preprocessing: We clean the dataset and handle missing values to prepare it for model training.</li>
   <li>Feature Engineering: We extract relevant features from the dataset, such as day of the week and month of the journey, to enhance model performance.</li>
