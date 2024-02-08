@@ -23,31 +23,40 @@ The dataset used in this project contains information about airline tickets, inc
 
 ### Techniques Used
 We employ various ML techniques and data preprocessing methods to train our models, including:
+<ul>
+  <li> Data cleaning and preprocessing to handle missing values and categorical variables.</li>
+  <li> Feature engineering to extract useful information from date and time columns.</li>
+  <li> Model selection and evaluation using algorithms such as Random Forest, Gradient Boosting, and XGBoost.</li>
+  <li> Hyperparameter tuning to optimize the performance of our models.</li>
+</ul>
 
-Data cleaning and preprocessing to handle missing values and categorical variables.
-Feature engineering to extract useful information from date and time columns.
-Model selection and evaluation using algorithms such as Random Forest, Gradient Boosting, and XGBoost.
-Hyperparameter tuning to optimize the performance of our models.
-Steps Followed
-Data Preprocessing: We clean the dataset and handle missing values to prepare it for model training.
-Feature Engineering: We extract relevant features from the dataset, such as day of the week and month of the journey, to enhance model performance.
-Model Training: We train multiple ML models using the preprocessed data and evaluate their performance.
-Model Evaluation: We evaluate the trained models using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) to assess their predictive accuracy.
-Deployment: We deploy the best-performing model to predict flight fares in real-time.
-Models Trained
+### Steps Followed
+<ul>
+  <li>Data Preprocessing: We clean the dataset and handle missing values to prepare it for model training.</li>
+  <li>Feature Engineering: We extract relevant features from the dataset, such as day of the week and month of the journey, to enhance model performance.</li>
+  <li>Model Training: We train multiple ML models using the preprocessed data and evaluate their performance.</li>
+  <li>Model Evaluation: We evaluate the trained models using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) to assess their predictive accuracy.</li>
+  <li>Deployment: We deploy the best-performing model to predict flight fares in real-time.</li>
+</ul>
+
+### Models Trained
 We train several models to predict flight fares, including:
+<ul>
+  <li>Linear Regression</li>
+  <li>Random Forest Regressor</li>
+  <li>XGBoost Regressor</li>
+</ul>
 
-Random Forest Regressor
-Gradient Boosting Regressor
-XGBoost Regressor
-How to Use
+### How to Use
 To use the predictive model:
+<ul>
+  <li>Clone this repository to your local machine.</li>
+  <li>Install the required dependencies listed in requirements.txt.</li>
+  <li>Run the provided scripts to preprocess the data and train the model.</li>
+  <li>Once the model is trained, you can use it to predict flight fares by providing relevant input data.</li>
+</ul>
 
-Clone this repository to your local machine.
-Install the required dependencies listed in requirements.txt.
-Run the provided scripts to preprocess the data and train the model.
-Once the model is trained, you can use it to predict flight fares by providing relevant input data.
-Conclusion
+### Conclusion
 Flight Fare Prediction is a challenging yet rewarding task that can greatly benefit travelers and airline companies alike. By leveraging AI and ML techniques, we can make accurate predictions about future ticket prices, allowing travelers to plan their trips more effectively and airlines to optimize their pricing strategies. Thank you for visiting our repository, and we hope you find our project informative and insightful!
 
-Happy flying! ✈️🚀
+## Happy flying! ✈️🚀
