@@ -2,6 +2,8 @@
 
 Welcome to the Flight Fare Prediction project repository! In this project, we aim to predict the fare of airline tickets based on various factors such as flight duration, days left for departure, arrival time, departure time, and more. We leverage the power of Artificial Intelligence (AI) and Machine Learning (ML) techniques to build predictive models that can effectively estimate the price of airline tickets.
 
+![Airplane](https://github.com/prajaktasonawane11/Flight-Fare-Prediction/blob/main/ProjectArchitecture.png)
+
 ### Project Overview
 Airline ticket pricing has become increasingly complex due to factors such as demand fluctuations, route popularity, and seasonal trends. To address this complexity, we utilize advanced ML algorithms to analyze historical data and predict future ticket prices accurately.
 
