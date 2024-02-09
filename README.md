@@ -24,24 +24,17 @@ The dataset used in this project contains information about airline tickets, inc
   <li>Price: The price of the airline ticket.</li>
 </ul>
 
-### Techniques Used
-We employ various ML techniques and data preprocessing methods to train our models, including:
-
-<ul>
-  <li> Data cleaning and preprocessing to handle missing values and categorical variables.</li>
-  <li> Feature engineering to extract useful information from date and time columns.</li>
-  <li> Model selection and evaluation using algorithms such as Linear Regression, Random Forest, and XGBoost.</li>
-  <li> Hyperparameter tuning to optimize the performance of our models.</li>
-</ul>
-
 ### Steps Followed
 
+In this project, I conducted a comprehensive analysis and preprocessing of the dataset to prepare it for model training and prediction. Here's a detailed explanation of the steps taken:
+
 <ul>
-  <li>Data Preprocessing: We clean the dataset and handle missing values to prepare it for model training.</li>
-  <li>Feature Engineering: We extract relevant features from the dataset, such as day of the week and month of the journey, to enhance model performance.</li>
-  <li>Model Training: We train multiple ML models using the preprocessed data and evaluate their performance.</li>
-  <li>Model Evaluation: We evaluate the trained models using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) to assess their predictive accuracy.</li>
-  <li>Deployment: We deploy the best-performing model to predict flight fares in real-time.</li>
+  <li>Data Type Check and Conversion: I checked the data types of each column and adjusted them as needed for consistency.</li>
+  <li>Handling Missing Values: Identified and dropped the small number of missing values in the dataset to maintain data integrity.</li>
+  <li>Feature Engineering: Transformed continuous columns like 'Date_of_Journey' and 'Dep_Time' to extract useful information, such as splitting dates into day and month, and breaking down time into hours and minutes.</li>
+  <li>Categorical Data Handling: Processed categorical variables using one-hot encoding and label encoding techniques to convert them into numerical format suitable for analysis.</li>
+  <li>Outlier Handling: Detected and treated outliers to prevent them from skewing model predictions, ensuring robustness and reliability.</li>
+  <li>Feature Selection: Identified the most influential features using correlation analysis and Random Forest model, focusing on those with the highest predictive power for improved model efficiency and performance.</li>
 </ul>
 
 ### Models Trained
